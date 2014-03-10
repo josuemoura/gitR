@@ -8,7 +8,7 @@ puts 'Informe o ano final'
 ano = gets.chomp
 anoF = ano.to_i
 puts ''
-while anoI != anoF
+while anoI <= anoF
 if(anoI % 4 == 0) and ((anoI % 400 == 0 ) or (anoI % 100 != 0))
 puts anoI.to_s + " é ano bissexto"
 else
